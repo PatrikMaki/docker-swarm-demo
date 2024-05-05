@@ -4,7 +4,7 @@ Demo system built using docker swarm
 
 ## Virtual setup
 
-- manager : 192.168.1.23
+- manager : 10.211.55.2
 - worker1 : 10.211.55.3
 
 Notes:
