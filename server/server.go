@@ -11,10 +11,10 @@ func main() {
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
 		temperature, err := getCPUtemperature()
 		if err != nil {
-			http.Error(w, "Failed to read CPU temperature", http.StatusInternalServerError)
+			http.Error(w, "Server version 1, Failed to read CPU temperature", http.StatusInternalServerError)
 			return
 		}
-		fmt.Fprintf(w, "CPU Temperature: %s\n", temperature)
+		fmt.Fprintf(w, "Server version 1, CPU Temperature: %s\n", temperature)
 	})
 
 	fmt.Println("Server is running on port 8080...")
