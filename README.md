@@ -1,6 +1,7 @@
 # docker-swarm-demo
 
-Demo system built using docker swarm
+Demo system built using docker swarm.
+This can be used instead of Kubernetes on self hosted setups
 
 ## Physical setup
 
@@ -10,4 +11,8 @@ Demo system built using docker swarm
 
 Notes:
 
-- tested on three servers
+- tested on two servers
+
+## TODO
+
+- add artifactory on manager server
