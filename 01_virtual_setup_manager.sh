@@ -1,2 +1,2 @@
 #!/bin/bash
-docker swarm init --advertise-addr 10.211.55.3
+docker swarm init --advertise-addr 192.168.1.75

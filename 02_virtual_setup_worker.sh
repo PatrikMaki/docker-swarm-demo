@@ -1,2 +1,2 @@
 #!/bin/bash
-docker swarm join --token SWMTKN-1-4b4794azyggpi5rfpbsf5jptwkkpd4zd61xa621j6n214y6ilq-3gsvyj43mjk8qd551vb5f8x3g 10.211.55.3:2377
+docker swarm join --token SWMTKN-1-04fbr28l4r75blxbjf2tpjm13m6ndb69lt12esg1p4uq5pbd2i-1ga4c87y5zluoro8iwnglo2ik 192.168.1.75:2377
