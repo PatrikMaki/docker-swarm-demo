@@ -4,8 +4,8 @@ Demo system built using docker swarm
 
 ## Virtual setup
 
-- manager : ???
-- worker1 : ???
+- manager : 192.168.1.23
+- worker1 : 10.211.55.3
 
 Notes:
 
@@ -13,8 +13,8 @@ Notes:
 
 ## Physical setup
 
-- manager1 : 75
-- worker1 : 43
+- manager1 : 192.168.1.75
+- worker1 : 192.168.1.43
 - worker2 : ???
 
 Notes:
