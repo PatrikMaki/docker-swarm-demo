@@ -1,3 +1,3 @@
 #!/bin/bash
-docker service create server
-docker service create client
+docker service create server --name server
+docker service create client --name client
